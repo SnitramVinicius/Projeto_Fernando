@@ -1,0 +1,1368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url('/img/Fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.top-bar {
+    background-color: rgb(6, 6, 36);
+    height: 3vh;
+    border-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav,
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+
+header img {
+    max-width: 10rem;
+}
+
+header nav {
+    display: flex;
+}
+
+.center {
+    min-height: 100vh;
+    color: rgb(6, 6, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding: 7vw 20vh;
+    flex-direction: row-reverse;
+}
+
+.center .name {
+    font-size: 2.5rem;
+}
+
+.center .fuction {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    color: rgb(6, 6, 36);
+}
+
+.center .description {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: rgb(6, 6, 36);
+    margin-bottom: 1rem;
+}
+
+.center .description2 {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: rgb(6, 6, 36);
+}
+
+.center .img {
+    max-width: 400;
+    padding-right: 20px;
+}
+
+.more {
+    min-height: 10vh;
+    color: rgb(6, 6, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .text {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.services .title {
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+
+.services .text2 {
+    font-weight: 200;
+    margin-bottom: 6vh;
+    color: rgb(6, 6, 36);
+    font-size: 1.3rem;
+}
+
+.work {
+    /* flex-direction: row-reverse; */
+    min-height: 100vh;
+    color: rgb(6, 6, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+}
+
+.work .text1 {
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.separation-bar {
+    background-color: #0a1128;
+    height: 0.1rem;
+    width: 100%;
+    padding: 0px 20rem;
+    margin-bottom: 3vh;
+}
+
+.work .text2 {
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.work .text3 {
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.work .text4 {
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.work .text5 {
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.work .text6 {
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+
+.work .text7 {
+    font-weight: 300;
+    margin-bottom: 15vh;
+}
+
+.work .img {
+    max-width: 700px;
+    margin-top: -20vh;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    padding: 10px 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(6, 6, 36);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(2, 2, 63, 0.623);
+}
+
+
+.contato {
+    width: 150vh;
+    height: autoh;
+    background-color: rgb(6, 6, 36);
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 30vh;
+}
+
+.contato .title {
+    font-size: 1.5rem;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.form-container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 2px;
+    /* Espaçamento entre as caixas de entrada */
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input.name {
+    margin-right: 10px;
+    /* Ajuste conforme necessário */
+}
+
+input.email {
+    margin-left: 1px;
+    /* Ajuste conforme necessário */
+}
+
+textarea.message {
+    margin-top: 5px;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+    padding: 1vw 5vh;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(20, 20, 75);
+    cursor: pointer;
+    color: #fff;
+
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.caixa {
+    background-color: rgba(6, 6, 36, 0.1);
+    /* cor de fundo */
+    border: 1px solid rgb(6, 6, 36);
+    /* borda */
+    border-radius: 10px;
+    /* borda arredondada */
+    padding: 20px;
+    /* espaçamento interno */
+    margin-top: 20px;
+    /* espaçamento superior */
+    color: rgb(6, 6, 36);
+    /* cor do texto */
+    font-size: 1rem;
+    /* tamanho da fonte */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 25vh;
+}
+
+.column {
+    flex: 1;
+    margin: 20px 20px;
+}
+
+.column h2 {
+    margin: 25px 0;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.contact h2 {
+    font-weight: 500;
+}
+
+.contact h1 {
+    font-size: 1rem;
+    margin-bottom: 2vh;
+}
+
+.contact p {
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.last-container {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 0 34vh;
+    gap: 100px;
+}
+
+.more-informations h1 {
+    margin: 45px 0;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.more-informations p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 5px 0;
+    color: #0a1128;
+}
+
+.more-informations p:hover {
+    font-weight: 500;
+}
+
+.social-media {
+    flex: 1;
+    margin: 20px 20px;
+}
+
+.social-media h1 {
+    margin: 25px 0;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.social-media p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 5px 0;
+    color: #0a1128;
+}
+
+.social-media p:hover {
+    font-weight: 500;
+}
+
+.last-img .img {
+    width: 300px;
+    display: flex;
+    margin: 0 25vh;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #31b963;
+    color: #fff; */
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    /* Garante que o botão fique acima de outros elementos */
+}
+
+/* contato */
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(6, 6, 36);
+    margin-bottom: 10rem;
+}
+
+.top-container .text {
+    margin: 16rem 0;
+    margin-bottom: 1rem;
+}
+
+.top-container .title {
+    font-size: 3rem;
+    margin-bottom: 2vh;
+}
+
+.top-container .text2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.informations-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10vw;
+    color: rgb(6, 6, 36);
+
+}
+.informations-container .space{
+    margin-bottom: 5rem;
+}
+.informations-container h1 {
+    margin-bottom:0.rem;
+    font-size: 1.5rem;
+}
+.informations-container h3 {
+    font-weight: 600;
+}
+
+.informations-container .p {
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.informations-container p {
+    font-weight: 400;
+}
+
+.informations-container h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 3vh
+}
+
+.contact .city {
+    margin-bottom: 8rem;
+}
+
+.container-column {
+    margin: 14vh 2vh;
+    color: rgb(6, 6, 36);
+    font-size: 0.8rem;
+}
+
+.container-column h2 {
+    margin-bottom: 3vh;
+    font-size: 1rem;
+}
+
+.container-column p {
+    font-weight: 400;
+    margin-bottom: 1vh;
+}
+
+.form {
+    width: 50%;
+
+}
+
+input {
+    padding: 2rem;
+}
+
+.form-submit {
+    margin: 2rem 0.1rem;
+}
+
+.form-submit .form-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 5vh;
+    padding: 1vw 5vh;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(20, 20, 75);
+    cursor: pointer;
+    color: #fff;
+}
+
+.form-submit .form-send:hover {
+    background-color: #777;
+}
+
+.container-email p {
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.container-email h2 {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.container-1 {
+    min-height: 100vh;
+    color: rgb(6, 6, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.container-1 .name {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.container-1 .fuction {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.container-1 .description {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+    margin-bottom: 2rem;
+}
+
+.container-1 .description2 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+    margin-bottom: 2rem;
+}
+
+.container-1 .description3 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+
+}
+
+.container-1 .img {
+    max-width: 500;
+    padding-right: 20px;
+}
+
+.container-analise {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10vw;
+    color: rgb(6, 6, 36);
+    gap: 10vh;
+    margin: -8vw -21vh;
+
+}
+
+.container-analise h1 {
+    margin-bottom: 3vh;
+}
+
+.container-analise .p {
+    margin-bottom: 3vh;
+    font-weight: 100;
+}
+
+.container-analise p {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.column-analise {
+    margin: 2.7rem;
+    margin-bottom: 3vh;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.column-analise p {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.container-2 {
+    min-height: 100vh;
+    color: rgb(6, 6, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: row-reverse;
+}
+
+.container-2 .name {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.container-2 .fuction {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.container-2 .description {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+    margin-bottom: 2rem;
+}
+
+.container-2 .description2 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+    margin-bottom: 2rem;
+}
+
+.container-2 .description3 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+
+}
+
+.container-2 .img {
+    max-width: 500;
+    padding-right: 20px;
+}
+
+.container-3 {
+    min-height: 100vh;
+    color: rgb(6, 6, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.container-3 .name {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.container-3 .fuction {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.container-3 .description {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+    margin-bottom: 2rem;
+}
+
+.container-3 .description2 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(2, 2, 63, 0.863);
+    margin-bottom: 0.5rem;
+}
+
+.container-3 .img {
+    max-width: 500;
+    padding-right: 20px;
+    margin-top: -70vh;
+}
+
+.conatiner-work {
+    min-height: 100vh;
+    color: rgb(6, 6, 36);
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+
+.conatiner-work .text1 {
+    font-weight: 200;
+    margin-bottom: 3vh;
+}
+
+.conatiner-work .text2 {
+    font-weight: 200;
+    margin-bottom: 3vh;
+}
+
+.conatiner-work .text3 {
+    font-weight: 200;
+    margin-bottom: 3vh;
+}
+
+/* configuracao do slide blog */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+.slider-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card-list .card-item{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    flex-direction: row;
+
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+   gap: 1rem;
+    color: #0a1128;
+}
+
+.card-item .contrato-image {
+    max-width: 450px; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.card-item .card-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.card-item .title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-item .date {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    color: #888;
+}
+
+.card-item .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.card-item .send1 {
+    font-size: 0.7rem;
+    padding: 5px 5px;
+    color: #fff;
+    background-color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.card-item .send1:hover {
+    background: rgba(3, 7, 40, 0.9);
+    border-color: #030728;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+  background: rgb(6, 6, 36);
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button{
+    color: rgb(6, 6, 36);
+    margin-top: -50px;
+    transition: 0.2s ease;
+}
+.slider-wrapper .swiper-slide-button:hover{
+    color: #555;
+}
+@media (max-width:768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+}
+
+/* configuracao-topicos do blog */
+.topico-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(6, 6, 36);
+}
+
+.topico-container .date {
+    margin: 20vw 0;
+    margin-bottom: 5vh;
+    font-weight: 200;
+    text-align: center;
+}
+
+.topico-container .title {
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    font-weight: 600;
+    text-align: center;
+}
+
+.topico-container .text2 {
+    font-size: 0.8rem;
+    margin-bottom: 25vh;
+    text-align: center;
+}
+
+.topico-container p {
+    margin-bottom: 5vh;
+    font-size: 1rem;
+}
+.topico-container ol {
+    margin-bottom: 5vh;
+    font-size: 1rem;
+}
+.topico-container li {
+    margin-bottom: 2vh;
+    font-size: 1rem;
+}
+
+.topico-container h2 {
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+}
+
+.topico-container .img1 {
+    /* max-width: 900px; */
+    height: 400px;
+    width: 700px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+
+.next-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10vh;
+    gap: 3rem;
+    color: #0a1128;
+    margin: 0 20vh 10vh;
+}
+
+.next-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 4vh;
+}
+
+.next-container h2 {
+    font-size: 1rem;
+}
+
+.next-container p {
+    font-size: 0.8rem;
+    margin-bottom: 1vh;
+    font-weight: 500;
+}
+
+.next-container a {
+    color: #0a1128;
+    font-size: 0.8rem;
+}
+
+.next-container a:hover {
+    color: rgba(2, 2, 63, 0.623);
+    font-size: 0.9rem;
+}
+
+.next-container .next2 {
+    margin-top: 6vh;
+}
+
+.separation-bar-next {
+    width: 0.1vh;
+    height: 50vh;
+}
+
+.separation-bar-next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+}
+
+.bar-thick {
+    width: 2px;
+    height: 5vh;
+    background-color: #0a1128;
+}
+
+.bar-space {
+    height: 1vh;
+}
+
+.bar-thin {
+    width: 1px;
+    height: 200px;
+    background-color: #0a112844;
+}
+#whatsapp .wtsapp {
+    position: fixed;
+    bottom: 50px; 
+    right: 50px; 
+    background-color: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    border: 0;
+    z-index: 9999;
+    width: 50px; 
+    height: 50px;
+    line-height: 50px;
+    transition: all .5s ease;
+}
+#whatsapp .wtsapp:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+#whatsapp .wtsapp:focus{
+    border:none ;
+    outline: none;
+}
+
+@keyframes pulse-border{
+    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
+    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 0;}
+}
+@media (max-width: 768px) {
+    header {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 5rem;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 1rem;
+    }
+
+    .center .name {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .center .fuction {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .center .description {
+        font-size: 1.3rem;
+        font-weight: 200;
+        color: rgb(6, 6, 36);
+        margin-bottom: 1rem;
+    }
+
+    .center .description2 {
+        font-size: 1.3rem;
+        font-weight: 200;
+        color: rgb(6, 6, 36);
+    }
+
+    .center .img {
+        max-width: 400px;
+    }
+
+    .more {
+        min-height: 10vh;
+        color: rgb(6, 6, 36);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .text {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 1vh;
+    }
+
+    .services .title {
+        font-size: 2rem;
+        margin-bottom: 2vh;
+    }
+
+    .services .text2 {
+        font-weight: 200;
+        margin-bottom: 6vh;
+        color: rgb(6, 6, 36);
+        font-size: 1.3rem;
+    }
+
+    .work {
+        /* flex-direction: row-reverse; */
+        min-height: 100vh;
+        color: rgb(6, 6, 36);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .work .text1 {
+        font-weight: 300;
+        margin-bottom: 3vh;
+    }
+
+    .separation-bar {
+        background-color: #0a1128;
+        height: 0.1rem;
+        width: 100%;
+        padding: 0px 20rem;
+        margin-bottom: 3vh;
+    }
+
+    .work .text2 {
+        font-weight: 300;
+        margin-bottom: 3vh;
+    }
+
+    .work .text3 {
+        font-weight: 300;
+        margin-bottom: 3vh;
+    }
+
+    .work .text4 {
+        font-weight: 300;
+        margin-bottom: 3vh;
+    }
+
+    .work .text5 {
+        font-weight: 300;
+        margin-bottom: 3vh;
+    }
+
+    .work .text6 {
+        font-weight: 300;
+        margin-bottom: 3vh;
+    }
+
+    .work .text7 {
+        font-weight: 300;
+        margin-bottom: 15vh;
+    }
+
+    .work .img {
+        max-width: 700px;
+        margin-top: -20vh;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 40px;
+        padding: 10px 10px;
+        font-size: 13px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(6, 6, 36);
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgba(2, 2, 63, 0.623);
+    }
+
+
+    .contato {
+        width: 150vh;
+        height: autoh;
+        background-color: rgb(6, 6, 36);
+        border-radius: 30px;
+        color: #fff;
+        margin-left: 30vh;
+    }
+
+    .contato .title {
+        font-size: 1.5rem;
+        font-weight: 200;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .form-container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 2px;
+        /* Espaçamento entre as caixas de entrada */
+        justify-content: space-between;
+    }
+
+    .form-group {
+        flex: 1;
+    }
+
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    input.name {
+        margin-right: 10px;
+        /* Ajuste conforme necessário */
+    }
+
+    input.email {
+        margin-left: 1px;
+        /* Ajuste conforme necessário */
+    }
+
+    textarea.message {
+        margin-top: 5px;
+        height: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .send {
+        display: flex;
+        align-items: center;
+        width: 5rem;
+        height: 2rem;
+        padding: 1vw 5vh;
+        font-size: 13px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(20, 20, 75);
+        cursor: pointer;
+        color: #fff;
+
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+
+    .caixa {
+        background-color: rgba(6, 6, 36, 0.1);
+        /* cor de fundo */
+        border: 1px solid rgb(6, 6, 36);
+        /* borda */
+        border-radius: 10px;
+        /* borda arredondada */
+        padding: 20px;
+        /* espaçamento interno */
+        margin-top: 20px;
+        /* espaçamento superior */
+        color: rgb(6, 6, 36);
+        /* cor do texto */
+        font-size: 1rem;
+        /* tamanho da fonte */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem 25vh;
+    }
+
+    .column {
+        flex: 1;
+        margin: 20px 20px;
+    }
+
+    .column h2 {
+        margin: 25px 0;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .column p {
+        font-weight: 100;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin: 5px 0;
+    }
+
+    .contact h2 {
+        font-weight: 500;
+    }
+
+    .contact h1 {
+        font-size: 1rem;
+        margin-bottom: 2vh;
+    }
+
+    .contact p {
+        font-weight: 100;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin: 5px 0;
+    }
+
+    .last-container {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        max-width: 1200px;
+        padding: 0 34vh;
+        gap: 100px;
+    }
+
+    .more-informations h1 {
+        margin: 45px 0;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .more-informations p {
+        font-weight: 300;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin: 5px 0;
+        color: #0a1128;
+    }
+
+    .more-informations p:hover {
+        font-weight: 500;
+    }
+
+    .social-media {
+        flex: 1;
+        margin: 20px 20px;
+    }
+
+    .social-media h1 {
+        margin: 25px 0;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .social-media p {
+        font-weight: 300;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin: 5px 0;
+        color: #0a1128;
+    }
+
+    .social-media p:hover {
+        font-weight: 500;
+    }
+
+    .last-img .img {
+        width: 300px;
+        display: flex;
+        margin: 0 25vh;
+    }
+
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        /* background-color: #31b963;
+        color: #fff; */
+        border: none;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        z-index: 1000;
+        /* Garante que o botão fique acima de outros elementos */
+    }
+
+    .whatsapp-button img {
+        width: 60px;
+        height: 60px;
+    }
+
+}
