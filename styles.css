@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    max-height: 100vh;
 }
 
 .top-bar {
@@ -62,9 +63,106 @@ header nav {
     flex-direction: row-reverse;
 }
 
-.center .name {
-    font-size: 2.5rem;
+/* index */
+.efect-text-work,
+.efect-title-work,
+.efect-text2-work,
+.efeito-more,
+.efeito-text1,
+.efeito-text2,
+.efeito-text3,
+.efeito-text4,
+.efeito-text5,
+.efeito-text6,
+.efeito-text7,
+.efeito-img-work,
+.efeito-separation-bar1,
+.efeito-separation-bar2,
+.efeito-separation-bar3,
+.efeito-separation-bar4,
+.efeito-separation-bar5,
+.efeito-separation-bar6,
+.efeito-contato,
+.efeito-contact,
+.efeito-column,
+.efeito-more-informations,
+.efeito-social-media {
+    visibility: hidden;
 }
+/* contato */
+.efeito-informacoes,
+.efeito-adv,
+.efeito-nome,
+.efeito-oab,
+.efeito-space,
+.efeito-email,
+.efeito-h3,
+.efeito-email2,
+.efeito-contato,
+.efeito-num1,
+.efeito-num2,
+.efeito-group1,
+.efeito-group2,
+.efeito-group3,
+.efeito-group4,
+.efeito-group5,
+.efeito-form-submit{
+    visibility: hidden;
+}
+/* blog */
+.efeito-container{
+    visibility: hidden;
+}
+/* entrega */
+.efeito-img-con1,
+.efeito-name,
+.efeito-function,
+.efeito-description,
+.efeito-description2,
+.efeito-description3,
+.efeitoh1,
+.efeitop,
+.efeitop1,
+.efeitop2,
+.efeitop3,
+.efeitop4,
+.efeito-name2,
+.efeito-function2,
+.efeito-description,
+.efeito-descriptionA,
+.efeito-img-con2,
+.efeito-img-con3,
+.efeito-name3,
+.efeito-function3,
+.efeito-description3,
+.efeito-description2,
+.efeito-container-analise,
+.efeito-analise-1,
+.efeito-column-analise{
+    visibility: hidden;
+}
+/* topico1 */
+.efeito-t1,
+.efeito-h2-t1,
+.efeito-imgt1,
+.efeito-separation-bar-next,
+.efeito-next1,
+.efeito-separation-bar-next2,
+.efeito-next2,
+.efeito-separation-bar-next3{
+visibility: hidden;
+}
+/* topico2 */
+.efeitoh2,
+.efeito-p,
+.efeito-img1t2,
+.efeito-li{
+visibility:hidden;
+}
+    .center .name {
+        font-size: 3rem;
+    }  
+
 
 .center .fuction {
     font-size: 2rem;
@@ -99,6 +197,7 @@ header nav {
     align-items: center;
 }
 
+
 .services .text {
     font-size: 1.3rem;
     font-weight: 500;
@@ -128,6 +227,7 @@ header nav {
     margin-bottom: 3rem;
     font-size: 1.3rem;
 }
+
 
 .work .text1 {
     font-weight: 300;
@@ -223,7 +323,6 @@ button:hover {
 .form-row {
     display: flex;
     gap: 2px;
-    /* Espaçamento entre as caixas de entrada */
     justify-content: space-between;
 }
 
@@ -301,6 +400,7 @@ button:hover {
     padding: 2rem 25vh;
 }
 
+
 .column {
     flex: 1;
     margin: 20px 20px;
@@ -345,6 +445,7 @@ button:hover {
     padding: 0 34vh;
     gap: 100px;
 }
+
 
 .more-informations h1 {
     margin: 45px 0;
@@ -413,7 +514,7 @@ button:hover {
 }
 
 /* contato */
-.top-container{
+.top-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -444,13 +545,16 @@ button:hover {
     color: rgb(6, 6, 36);
 
 }
-.informations-container .space{
+
+.informations-container .space {
     margin-bottom: 5rem;
 }
+
 .informations-container h1 {
-    margin-bottom:0.rem;
+    margin-bottom: 0.rem;
     font-size: 1.5rem;
 }
+
 .informations-container h3 {
     font-weight: 600;
 }
@@ -605,7 +709,7 @@ input {
 
 .column-analise {
     margin: 2.7rem;
-    margin-bottom: 3vh;
+    margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: 100;
 }
@@ -660,6 +764,7 @@ input {
 .container-2 .img {
     max-width: 500;
     padding-right: 20px;
+    margin-bottom: 2rem;
 }
 
 .container-3 {
@@ -735,17 +840,19 @@ input {
     margin: 0 auto;
     margin-bottom: 20vh;
 }
-.slider-wrapper{
+
+.slider-wrapper {
     overflow: hidden;
     max-width: 1200px;
     margin: 0 70px 55px;
 }
+
 .slider-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.card-list .card-item{
+.card-list .card-item {
     display: flex;
     justify-content: center;
     user-select: none;
@@ -756,13 +863,13 @@ input {
 .card-item {
     display: flex;
     align-items: center;
-   gap: 1rem;
+    gap: 1rem;
     color: #0a1128;
 }
 
 .card-item .contrato-image {
-    max-width: 450px; 
-    height: auto; 
+    max-width: 450px;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -807,25 +914,28 @@ input {
     border-color: #030728;
 }
 
-.slider-wrapper .swiper-pagination-bullet{
-  background: rgb(6, 6, 36);
+.slider-wrapper .swiper-pagination-bullet {
+    background: rgb(6, 6, 36);
     height: 15px;
     width: 15px;
 }
 
-.slider-wrapper .swiper-slide-button{
+.slider-wrapper .swiper-slide-button {
     color: rgb(6, 6, 36);
     margin-top: -50px;
     transition: 0.2s ease;
 }
-.slider-wrapper .swiper-slide-button:hover{
+
+.slider-wrapper .swiper-slide-button:hover {
     color: #555;
 }
-@media (max-width:768px){
-    .slider-wrapper{
+
+@media (max-width:768px) {
+    .slider-wrapper {
         margin: 0 10px 40px;
     }
-    .slider-wrapper .swiper-slide-button{
+
+    .slider-wrapper .swiper-slide-button {
         display: none;
     }
 }
@@ -863,10 +973,12 @@ input {
     margin-bottom: 5vh;
     font-size: 1rem;
 }
+
 .topico-container ol {
     margin-bottom: 5vh;
     font-size: 1rem;
 }
+
 .topico-container li {
     margin-bottom: 2vh;
     font-size: 1rem;
@@ -955,10 +1067,11 @@ input {
     height: 200px;
     background-color: #0a112844;
 }
+
 #whatsapp .wtsapp {
     position: fixed;
-    bottom: 50px; 
-    right: 50px; 
+    bottom: 50px;
+    right: 50px;
     background-color: #25d366;
     display: block;
     text-align: center;
@@ -969,12 +1082,13 @@ input {
     font-size: 24px;
     border: 0;
     z-index: 9999;
-    width: 50px; 
+    width: 50px;
     height: 50px;
     line-height: 50px;
     transition: all .5s ease;
 }
-#whatsapp .wtsapp:before{
+
+#whatsapp .wtsapp:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -989,380 +1103,306 @@ input {
     -webkit-animation: pulse-border 1500ms ease-out infinite;
     animation: pulse-border 1500ms ease-out infinite;
 }
-#whatsapp .wtsapp:focus{
-    border:none ;
+
+#whatsapp .wtsapp:focus {
+    border: none;
     outline: none;
 }
 
-@keyframes pulse-border{
-    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
-    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 0;}
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
 }
+
 @media (max-width: 768px) {
+/* index */
+    .img{
+        width: 400px;
+    }
     header {
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-        padding: 2rem 5rem;
+        padding: 1rem;
     }
 
     .center {
-        display: flex;
+        flex-direction: column-reverse;
+        padding:10rem 2rem;
+    }
+    .info .name{
+        font-size: 2.5rem;
+    }
+.info .fuction{
+    font-size: 1.5rem;
+}
+.info .description{
+    font-size: 1.2rem;
+}
+.info .description2{
+    font-size: 1.2rem;
+}
+.more{
+    margin-top: -5rem;
+    padding: 0 2rem;
+}
+.more .text{
+    font-size: 1.2rem;
+}
+.more .title{
+    font-size: 1.2rem;
+     display: block;
+}
+.more .text2{
+    font-size: 1.2rem;
+    
+}
+    .container{
         flex-direction: column;
-        padding: 10rem 1rem;
-    }
-
-    .center .name {
-        font-size: 1.9rem;
-        text-align: center;
-    }
-
-    .center .fuction {
-        text-align: center;
-        font-size: 2rem;
-    }
-
-    .center .description {
-        font-size: 1.3rem;
-        font-weight: 200;
-        color: rgb(6, 6, 36);
-        margin-bottom: 1rem;
-    }
-
-    .center .description2 {
-        font-size: 1.3rem;
-        font-weight: 200;
-        color: rgb(6, 6, 36);
-    }
-
-    .center .img {
-        max-width: 400px;
-    }
-
-    .more {
-        min-height: 10vh;
-        color: rgb(6, 6, 36);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .services .text {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin-bottom: 1vh;
-    }
-
-    .services .title {
-        font-size: 2rem;
-        margin-bottom: 2vh;
-    }
-
-    .services .text2 {
-        font-weight: 200;
-        margin-bottom: 6vh;
-        color: rgb(6, 6, 36);
-        font-size: 1.3rem;
-    }
-
-    .work {
-        /* flex-direction: row-reverse; */
-        min-height: 100vh;
-        color: rgb(6, 6, 36);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10vh;
-        margin-bottom: 3rem;
-        font-size: 1.3rem;
-    }
-
-    .work .text1 {
-        font-weight: 300;
-        margin-bottom: 3vh;
-    }
-
-    .separation-bar {
-        background-color: #0a1128;
-        height: 0.1rem;
-        width: 100%;
-        padding: 0px 20rem;
-        margin-bottom: 3vh;
-    }
-
-    .work .text2 {
-        font-weight: 300;
-        margin-bottom: 3vh;
-    }
-
-    .work .text3 {
-        font-weight: 300;
-        margin-bottom: 3vh;
-    }
-
-    .work .text4 {
-        font-weight: 300;
-        margin-bottom: 3vh;
-    }
-
-    .work .text5 {
-        font-weight: 300;
-        margin-bottom: 3vh;
-    }
-
-    .work .text6 {
-        font-weight: 300;
-        margin-bottom: 3vh;
-    }
-
-    .work .text7 {
-        font-weight: 300;
-        margin-bottom: 15vh;
-    }
-
-    .work .img {
-        max-width: 700px;
-        margin-top: -20vh;
-    }
-
-    button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 70px;
-        height: 40px;
-        padding: 10px 10px;
-        font-size: 13px;
-        border-radius: 10px;
-        border: none;
-        background-color: rgb(6, 6, 36);
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: rgba(2, 2, 63, 0.623);
-    }
-
-
-    .contato {
-        width: 150vh;
-        height: autoh;
-        background-color: rgb(6, 6, 36);
-        border-radius: 30px;
-        color: #fff;
-        margin-left: 30vh;
-    }
-
-    .contato .title {
-        font-size: 1.5rem;
-        font-weight: 200;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem;
-    }
-
-    .form-container {
-        max-width: 70%;
-        margin: 0 auto;
         padding: 0.5rem;
     }
 
-    .form-row {
-        display: flex;
-        gap: 2px;
-        /* Espaçamento entre as caixas de entrada */
-        justify-content: space-between;
-    }
-
-    .form-group {
-        flex: 1;
-    }
-
-
-    input,
-    textarea {
+      .social-media {
+        margin: 0px 0;
+        padding: 0;
         width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 16px;
+    }
+.work{
+    flex-direction: column;
+}
+.work .img{
+    margin: 0.5rem;
+}
+.rs {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+.text1res {
+    display: block;
+    line-height: 1.5;
+}
+.separation-bar {
+    padding: 0px 2rem;
+}
+
+
+.last-img .img{
+margin: 0 -2vh;   
+width: 15rem;
+}
+
+.last-container{
+margin: 2vw -14vh;
+white-space: nowrap;
+gap: 8rem;
+}
+.last-container p{
+    margin-bottom: 1rem;
+}
+.social-media{
+    margin: 20px;
+}
+.contato {
+    max-width: 100%;
+    padding: 20px 20px 0 ;
+    margin: -10vh 0;
+    border-radius: 0;
+}
+.contato .title{
+    font-size: 1.2rem;
+}
+.form-container {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%; 
+}
+
+input, textarea, button.send {
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+button.send {
+    margin-top: 10px; 
+}
+
+.container {
+    padding: 10vh 0;
+}
+.column{
+    margin: 0 1vw;
+}
+/* entrega */
+.top-container .text{
+    font-size: 2.5rem;
+    padding: 0 1rem;
+}
+.top-container .title{
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+.top-container .text2{
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+.container-1{
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.container-1 .name{
+    font-size: 1.5rem;
+
+}
+.container-1 .description{
+    font-size: 1.5rem;
+
+} 
+.container-1 .description2{
+    font-size: 1.5rem;
+
+} 
+.container-1 .description3{
+    font-size: 1.5rem;
+} 
+.container-analise{
+    display: block;
+    padding: 3rem 10rem;
+    font-size: 1.5rem;
+}
+.container-analise .column-analise{
+    margin:0 0 0 0;
+    font-size: 1.5rem;
+}
+
+.container-2{
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.container-2 .name{
+    font-size: 1.5rem;
+}
+.container-2 .description{
+    font-size: 1.5rem;
+} 
+.container-2 .description2{
+    font-size: 1.5rem;
+} 
+
+.container-3{
+    flex-direction: column;
+    padding: 35rem 1rem;
+    
+}
+.container-3 .name{
+    font-size: 1.5rem;
+}
+.container-3 .description{
+    font-size: 1.5rem;
+}
+.container-3 .description2{
+    font-size: 1.5rem;
+}
+.container-3 .analise{
+font-size: 1.5rem;
+}
+.container-3 .conatiner-work{
+    font-size: 1.5rem;
     }
 
-    input.name {
-        margin-right: 10px;
-        /* Ajuste conforme necessário */
-    }
+    /* blog */
+.top-container .text{
+    font-size: 1.5rem;
+}
+.top-container .title{
+    font-size: 1.5rem;
+}
+.top-container .text2{
+    font-size: 1.5rem;
+}
 
-    input.email {
-        margin-left: 1px;
-        /* Ajuste conforme necessário */
-    }
+.card-item .contrato-image{
+    display: none;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
 
-    textarea.message {
-        margin-top: 5px;
-        height: 10rem;
-        margin-bottom: 1rem;
-    }
+/* contato */
 
-    .send {
-        display: flex;
-        align-items: center;
-        width: 5rem;
-        height: 2rem;
-        padding: 1vw 5vh;
-        font-size: 13px;
-        border-radius: 10px;
-        border: none;
-        background-color: rgb(20, 20, 75);
-        cursor: pointer;
-        color: #fff;
+.informations-container{
+flex-direction: column;
+margin-top: -5rem;
+}
+.form {
+    padding: 0 -1rem; /* Adiciona espaçamento lateral em telas pequenas */
+}
 
-    }
+.group {
+    width: 20rem; 
+}
 
-    button:hover {
-        background-color: #555;
-    }
+/* blog1 */
+.Logo{
+    max-width: 230px;
+}
+.topico-container{
+ padding: 10rem;
+ /* white-space: normal; */
+}
+.topico-container .date{
+    font-size: 1.2rem;
+}
+.topico-container .title{
+    font-size: 1.5rem;
+}
+.topico-container .text2{
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+.topico-container .efeito-t1{
+    font-size: 1.5rem;
+   padding: 0 6rem;
+}
+.topico-container .efeito-h2-t1{
+    font-size: 1.5rem;
+   padding: 0 6rem;
+}
 
-    .caixa {
-        background-color: rgba(6, 6, 36, 0.1);
-        /* cor de fundo */
-        border: 1px solid rgb(6, 6, 36);
-        /* borda */
-        border-radius: 10px;
-        /* borda arredondada */
-        padding: 20px;
-        /* espaçamento interno */
-        margin-top: 20px;
-        /* espaçamento superior */
-        color: rgb(6, 6, 36);
-        /* cor do texto */
-        font-size: 1rem;
-        /* tamanho da fonte */
-    }
-
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 2rem 25vh;
-    }
-
-    .column {
-        flex: 1;
-        margin: 20px 20px;
-    }
-
-    .column h2 {
-        margin: 25px 0;
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-
-    .column p {
-        font-weight: 100;
-        font-size: 0.8rem;
-        line-height: 1.5;
-        margin: 5px 0;
-    }
-
-    .contact h2 {
-        font-weight: 500;
-    }
-
-    .contact h1 {
-        font-size: 1rem;
-        margin-bottom: 2vh;
-    }
-
-    .contact p {
-        font-weight: 100;
-        font-size: 0.8rem;
-        line-height: 1.5;
-        margin: 5px 0;
-    }
-
-    .last-container {
-        margin-top: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 80%;
-        max-width: 1200px;
-        padding: 0 34vh;
-        gap: 100px;
-    }
-
-    .more-informations h1 {
-        margin: 45px 0;
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-
-    .more-informations p {
-        font-weight: 300;
-        font-size: 0.8rem;
-        line-height: 1.5;
-        margin: 5px 0;
-        color: #0a1128;
-    }
-
-    .more-informations p:hover {
-        font-weight: 500;
-    }
-
-    .social-media {
-        flex: 1;
-        margin: 20px 20px;
-    }
-
-    .social-media h1 {
-        margin: 25px 0;
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-
-    .social-media p {
-        font-weight: 300;
-        font-size: 0.8rem;
-        line-height: 1.5;
-        margin: 5px 0;
-        color: #0a1128;
-    }
-
-    .social-media p:hover {
-        font-weight: 500;
-    }
-
-    .last-img .img {
-        width: 300px;
-        display: flex;
-        margin: 0 25vh;
-    }
-
-    .whatsapp-button {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        /* background-color: #31b963;
-        color: #fff; */
-        border: none;
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
-        z-index: 1000;
-        /* Garante que o botão fique acima de outros elementos */
-    }
-
-    .whatsapp-button img {
-        width: 60px;
-        height: 60px;
-    }
+.next-container{
+    flex: 1; 
+    margin: 0 10px;
+    padding: 10rem 1rem;
+    margin-bottom: 10rem;
+}
+.next-container .separation-bar-next{
+    display: none;
+}
+.next-container{
+    margin-top: -12rem;
+}
+/* blog2 */
+.topico-container .efeitoh2{
+    font-size: 1.5rem;
+    padding: 0 6rem;
+}
+.topico-container .efeito-p{
+    font-size: 1.5rem;
+    padding: 0 6rem;
+    
+}
+.topico-container .efeito-li{
+    font-size: 1.5rem;
+    padding: 0 6rem;
+    
+}
 
 }
